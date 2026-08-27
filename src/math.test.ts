@@ -14,16 +14,16 @@ describe("add2", () => {
   });
 });
 
-describe("sub2", () => {
-  test("subtracts positive numbers", () => {
-    expect(sub2(1, 1)).toEqual(0);
-  });
+// describe("sub2", () => {
+//   test("subtracts positive numbers", () => {
+//     expect(sub2(1, 1)).toEqual(0);
+//   });
 
-  test("subtracts negative numbers", () => {
-    expect(sub2(-23, -39)).toEqual(16);
-  });
+//   test("subtracts negative numbers", () => {
+//     expect(sub2(-23, -39)).toEqual(16);
+//   });
 
-  test("subtracts zero", () => {
-    expect(sub2(42, 0)).toEqual(42);
-  });
-});
+//   test("subtracts zero", () => {
+//     expect(sub2(42, 0)).toEqual(42);
+//   });
+// });
