@@ -4,8 +4,10 @@
     "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
+    "types": ["jest", "node"],
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "rootDir": "./src",
     "outDir": "dist"
   }
 }
